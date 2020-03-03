@@ -4,7 +4,7 @@ function connect_db() {
  // EDIT HERE YOUR USERNAME AND PASSWORD
  $username = "bgg295";
  $password = "myVUsZ79b";
- $dbname = "MariaDB";
+ $dbname = "bgg295";
  // Create connection
  $conn = new mysqli($servername, $username, $password, $dbname);
  // Check connection
