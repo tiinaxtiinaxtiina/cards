@@ -16,12 +16,14 @@ if($_SESSION['username'] == 'username') {
  echo $row["city"] . " ";
  echo $row["state"] . " ";
  echo $row["country"] . " ";
+ echo "<a href=\"delete.php?id=" . $row["id"] . "\">DELETE</a>";
  print("<br>");
  }
  } else {
  echo "0 results";
  }
  print("<br><br>");
+<<<<<<< HEAD
  print("Insert new");
  print("<form action=\"save.php\" method=\"post\">");
 print("<br>");
@@ -46,6 +48,9 @@ print("<br>");
  print("");
  print("<input type=\"submit\" name=\"submit\" value=\"Save\" >");
  print("</form>");
+=======
+
+>>>>>>> delete
  print("</html>");
  mysqli_close($conn);
 } else {
